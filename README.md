@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 This project showcases my skills, projects, and achievements in **Machine Learning**, **Web Development**, and **Computer Science**.
 
-🔗 **Live Website:** [https://tarunchaudhary.github.io/my_portfolio/](https://tarunchaudhary.github.io/my_portfolio/)
+🔗 **Live Website:** (https://tarun2118.github.io/My_Portfolio/)
 
 ---
 
