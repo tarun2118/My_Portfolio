@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Tarun Chaudhary</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Tarun Chaudhary</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="controls">
+        <button id="theme-toggle-proj" class="btn-icon" aria-label="Toggle theme">🌓</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page container">
+      <h2>Key Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>ML-based CPU Scheduling Recommendation System</h3>
+          <p>
+            Built with Streamlit and C++ integrating traditional & real-time scheduling algorithms.
+            Generated 10,000 synthetic datasets and trained Random Forest, SVM, KNN, Decision Tree.
+            Random Forest achieved 88% accuracy.
+          </p>
+          <p class="meta">Tech: Python, C++, Streamlit, Scikit-learn</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Library Management System</h3>
+          <p>
+            Java-based system using NetBeans & MySQL. Implemented relational schema, JDBC-based CRUD,
+            book issue/return logic and fines.
+          </p>
+          <p class="meta">Tech: Java, MySQL, JDBC</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Hybrid Flower Classification</h3>
+          <p>
+            CNN in Keras for 5 flowers with augmentation (800 images/class). Added features like soil type,
+            temperature, season and medicinal information. Achieved 85% accuracy.
+          </p>
+          <p class="meta">Tech: Keras, TensorFlow, Python</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Handwritten Character Recognition</h3>
+          <p>
+            EMNIST Balanced dataset (60k samples). 3-layer ConvNet in Keras with dropout & batchnorm.
+            Reached 89% test accuracy.
+          </p>
+          <p class="meta">Tech: Keras, CNN, EMNIST</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year-proj"></span> Tarun Chaudhary</div>
+      <div class="socials">
+        <a href="mailto:tchaudhary4566@gmail.com">Email</a>
+        <a href="https://github.com/tarun2118" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/tarun-chaudhary-114b13282/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
